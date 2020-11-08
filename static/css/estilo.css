@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+
+.tabela{
+    color:black;
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+.padrao{
+    color:black;
+    font-family:'Lucida Sans' ;
+    text-align: center;
+}
+
+.img{
+    max-width: 100%;
+    width: 500px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.imgtop{
+    width: 800px;
+    height: 300px;
+    object-fit: contain;
+    
+}
+.footer{
+    position: static;
+    margin-top:100px ;
+    bottom:100px;
+    width:100%;
+    background-color:gainsboro ;
+    text-align: center;
+}
+
+.imgft{
+    max-width: 100%;
+    width: 50px;
+    height: 50px;
+}
