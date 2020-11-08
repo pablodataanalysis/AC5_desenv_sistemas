@@ -8,6 +8,12 @@ body{
     text-align: center;
 }
 
+.history{
+    color:black;
+    font-family: 'Verdana';
+    text-align: justify;
+}
+
 .padrao{
     color:black;
     font-family:'Lucida Sans' ;
