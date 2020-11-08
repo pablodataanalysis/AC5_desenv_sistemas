@@ -7,7 +7,11 @@ body{
     font-family: 'Verdana';
     text-align: center;
 }
-
+.history{
+    color:black;
+    font-family: 'Verdana';
+    text-align: justify;
+}
 .padrao{
     color:black;
     font-family:'Lucida Sans' ;
@@ -22,11 +26,14 @@ body{
 }
 
 .imgtop{
+    display: block;
     width: 800px;
     height: 300px;
     object-fit: contain;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .footer{
     position: static;
     margin-top:100px ;
