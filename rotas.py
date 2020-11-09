@@ -2,44 +2,44 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")#parte do Luiz
+@app.route("/quartas")
 def index():
     return render_template("index.html")
 
 @app.route("/oitavas")
-def index():
+def oitavas():
     return render_template("oitavas.html")
 
 @app.route("/palmeiras")
-def index():
+def palmeiras():
     return render_template("palmeiras.html")
 
 @app.route("/flamengo")
-def index():
+def flamengo():
     return render_template("flamengo.html")
 
 @app.route("/corinthians")
-def index():
+def corinthians():
     return render_template("corinthians.html")
 
 @app.route("/vasco")
-def index():
+def vasco():
     return render_template("vasco.html")
 
 @app.route("/saopaulo")
-def index():
+def saopaulo():
     return render_template("saopaulo.html")
 
 @app.route("/fluminense")
-def index():
+def fluminense():
     return render_template("fluminense.html")
 
 @app.route("/santos")
-def index():
+def santos():
     return render_template("santos.html")
 
 @app.route("/botafogo")
-def index():
+def botafogo():
     return render_template("botafogo.html")
 
 app.run(debug=True)
